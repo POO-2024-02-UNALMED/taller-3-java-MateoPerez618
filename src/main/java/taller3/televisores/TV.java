@@ -52,7 +52,7 @@ public class TV {
 		this.precio = precio;
 	}
 	
-	public void setVolumen(int Volumen) {
+	public void setVolumen(int volumen) {
 		if (this.estado && volumen >= 0 && volumen <= 7)
 			this.volumen = volumen;
 	}
